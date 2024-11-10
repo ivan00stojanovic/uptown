@@ -117,5 +117,9 @@ body, html {
 
 .testing{
     color: red;
-    margin-top: 200rem;
+    margin-top: 5em;
+    /* margin-left: 36rem; */
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
 }
