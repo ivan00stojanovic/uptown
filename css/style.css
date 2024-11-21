@@ -139,6 +139,11 @@ body, html {
     margin-bottom: 3rem;
 }
 
+.list-of-fun{
+    /* border: 2px solid orange; */
+    background-color: aquamarine;
+}
+
 .list-of-fun > ul{
     /* border: 2px solid orange; */
     display: flex;
@@ -154,5 +159,11 @@ body, html {
     flex-direction: column;
     gap: 1rem;
     color: blue;
+}
 
+.list-of-fun > p {
+    margin-top: 3rem;
+    color: red;
+    display: flex;
+    justify-content: center;
 }
