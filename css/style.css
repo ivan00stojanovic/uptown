@@ -166,4 +166,28 @@ body, html {
     color: red;
     display: flex;
     justify-content: center;
+    font-size: 2rem;
+    font-family: Oswald, sans-serif;
+}
+
+.menus{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.menus > .container > .menu{
+    width: 40%;
+    margin: 4rem 13rem;
+    height: 250px;
+    transition: all 0.25s ease-out;
+    /* object-fit: cover; */
+}
+
+
+.menus > .container > .menu:hover{
+    /* width: 50%; */
+    transform: scaleY(1.1);
+    filter: blur(2px);
+
 }
