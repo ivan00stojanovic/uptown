@@ -141,7 +141,7 @@ body, html {
 
 .list-of-fun{
     /* border: 2px solid orange; */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .list-of-fun > ul{
@@ -182,6 +182,10 @@ body, html {
     height: 250px;
     transition: all 0.25s ease-out;
     /* object-fit: cover; */
+}
+
+.menus > .container > .drink-button {
+    color: blue;
 }
 
 
